@@ -1,0 +1,21 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "python.analysis.typeshedPaths": [
+        ".venv/Lib/site-packages"
+    ],
+    "python.formatting.provider": "black",
+    "terminal.integrated.env.windows": {
+        "EDITOR": "&code.cmd -w"
+    },
+    "terminal.integrated.env.linux": {
+        "EDITOR": "code -w"
+    },
+    "terminal.integrated.env.osx": {
+        "EDITOR": "code -w"
+    },
+}

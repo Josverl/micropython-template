@@ -1,0 +1,13 @@
+## Uncomment one of the below lines to enable the stubs for the corresponding port
+
+# micropython-stm32-stubs==1.19.1.*
+# micropython-esp32-stubs==1.19.1.*
+micropython-rp2-stubs==1.19.1.*
+# micropython-samd-stubs==1.19.1.*
+
+# common tools for all ports
+mpremote
+
+# development tools
+black
+isort
