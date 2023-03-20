@@ -1,4 +1,4 @@
-from foobar import foo, bar
+from foobar import bar, foo
 
 foo()
-bar(1)
+bar(3)

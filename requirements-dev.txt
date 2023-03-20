@@ -6,8 +6,10 @@ micropython-rp2-stubs==1.19.1.*
 # micropython-samd-stubs==1.19.1.*
 
 # common tools for all ports
-mpremote
+# mpremote
+git+https://github.com/Josverl/mpremote#subdirectory=tools/mpremote
 
 # development tools
 black
-isort
+# isort
+mypy

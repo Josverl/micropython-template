@@ -3,3 +3,15 @@ line-length = 99
 
 [tool.isort]
 profile = "black"
+
+[tool.pylance]
+# Python version 
+# also see config in .vscode/settings.json 
+
+[tool.mypy]
+python_version = "3.6"
+ignore_missing_imports = false
+# search path 
+follow_imports = "silent"
+show_column_numbers = true
+no_pretty = true

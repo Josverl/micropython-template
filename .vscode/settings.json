@@ -1,4 +1,15 @@
 {
+    "terminal.integrated.env.windows": {
+        "EDITOR": "code.cmd -w"
+    },
+    "terminal.integrated.env.linux": {
+        "EDITOR": "code -w"
+    },
+    "terminal.integrated.env.osx": {
+        "EDITOR": "code -w"
+    },
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,   
     "python.languageServer": "Pylance",
     "python.analysis.diagnosticMode": "openFilesOnly",
     "python.analysis.typeCheckingMode": "basic",
@@ -9,13 +20,5 @@
         ".venv/Lib/site-packages"
     ],
     "python.formatting.provider": "black",
-    "terminal.integrated.env.windows": {
-        "EDITOR": "&code.cmd -w"
-    },
-    "terminal.integrated.env.linux": {
-        "EDITOR": "code -w"
-    },
-    "terminal.integrated.env.osx": {
-        "EDITOR": "code -w"
-    },
+    "python.linting.mypyEnabled": true,
 }
